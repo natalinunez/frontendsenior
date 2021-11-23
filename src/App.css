@@ -1,0 +1,104 @@
+.medida-entrada1 {  
+  width: 25vw;
+}
+.medida-entrada2 {  
+  width: 70vw;
+}
+.displayListado {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1vw;
+  /* border: 1px solid red; */
+  min-width: 30vw;
+  width: 60vw;
+  
+}
+
+/* Ini Encabezado */
+.displayEncabezado {
+  display: flex;
+  gap: 3vw;  
+  width: 30vw;
+  /* border: 1px solid red; */
+}
+
+.displayEncabezado h5:nth-child(3) {
+  /* background: red; */
+  /* padding-left: 50px; */
+  padding-left: 9vw;
+  
+}
+
+.displayEncabezado h5:nth-child(4) {
+  /* background: red; */
+  /* margin-left: -80px; */
+  margin-left: -2vw;
+}
+/* Fin Encabezado */
+
+.borderP {
+  /* border: 1px solid #0011ff; */
+  width: 40%;
+}
+
+.card-block { 
+  display: flex;
+  gap:200px;
+  justify-content: space-around;
+}
+
+.button {
+  width: 20%;
+  height: 50px;
+  /* border: 1px solid #0011ff; */
+  /* background-color: rgb(140, 218, 39); */
+  margin: 0 auto;
+}
+
+.contenedor1{
+  /* height: 1000px; */
+  height: 100vh;
+  /* background-color:green; */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+/* /////// */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
